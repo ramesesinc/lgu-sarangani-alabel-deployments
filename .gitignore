@@ -8,3 +8,4 @@ Thumbs.db
 docker-compose-test.yml
 download-server/resources/downloads/**/*.xml
 *.mp4
+/system/jasper/output
