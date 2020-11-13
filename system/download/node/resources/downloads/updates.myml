@@ -1,6 +1,6 @@
 app: 
   env:
-    "app.title" : "ETRACS 2.5 build 05 20200617_001 (${lgu_name})"
+    "app.title" : "ETRACS 2.5 build 05 20201112_001 (${lgu_name})"
     "app.host" : "${app_server_ip}:8070"
     "app.cluster" : "osiris3"
     "app.context" : "etracs25"
@@ -36,9 +36,10 @@ app:
     - { order: 154, version: 2.51, file: "modules/shared/rameses-rules-mgmt.jar" }
     - { order: 155, version: 2.51, file: "modules/shared/rameses-workflow-mgmt.jar" }
     - { order: 156, version: 2.51, file: "modules/shared/rameses-enterprise.jar" }
-    - { order: 157, version: 2.52, file: "modules/shared/rameses-enterprise-admin.jar" }
+    - { order: 157, version: 2.50, file: "modules/shared/rameses-enterprise-admin.jar" }
     - { order: 160, version: 2.51, file: "modules/shared/rameses-enterprise-financial.jar" }
     - { order: 161, version: 2.51, file: "modules/shared/rameses-client-notification2.jar" } 
+    - { order: 162, version: 2.50, file: "modules/shared/rameses-email-client.jar" } 
     # etracs
     - { order: 200, version: 2.51, file: "modules/etracs/rameses-etracs-main.jar" }
     - { order: 202, version: 2.51, file: "modules/etracs/rameses-gov-etracs-ngas-report.jar" }
